@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>AI Avatar Chat</title>
+</head>
+<body>
+  <div class="container">
+    <h1>AI Avatar Chat</h1>
+    <video id="video" width="320" height="240" autoplay></video>
+    <button id="snap">Take Snapshot</button>
+    <canvas id="canvas" width="320" height="240"></canvas>
+    <input type="text" id="userInput" placeholder="Ask me anything...">
+    <button id="sendText">Send Text</button>
+    <button id="startVoice">🎤 Voice Input</button>
+    <div id="response">
+      <img id="avatar" src="" alt="AI Avatar">
+      <p id="textResponse"></p>
+      <audio id="audioResponse" controls></audio>
+    </div>
+  </div>
+  <script src="app.js"></script>
+</body>
+</html>
