@@ -1,0 +1,10 @@
+openai==1.0.0
+speechrecognition==3.9.0
+gTTS==2.3.2
+pyaudio==0.2.13
+opencv-python==4.8.0.76
+mediapipe==0.10.7
+moviepy==1.0.3
+numpy==1.26.0
+Pillow==9.5.0
+pygame==2.5.2
